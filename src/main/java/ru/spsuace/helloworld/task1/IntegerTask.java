@@ -14,11 +14,10 @@ public class IntegerTask {
      * Пример: (5) -> 15
      */
     public static int sum(int n) {
-        int sum=0;
-        for(int i=0;i<n;i++)
+        int sum = 0;
+        for (int i = 0; i < n; i++)
             if (i < n) {
-                int ;
-
+                sum = sum + 1;
             }
         return sum;
     }
